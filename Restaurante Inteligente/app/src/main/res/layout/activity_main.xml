@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vitchor.projetotestandopraaula.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ToggleButton
+            android:id="@+id/toggle_veggetariano"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textOff="Vegetariano"
+            android:textOn="Vegetariano"
+            android:layout_margin="10dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_batata"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textOff="Batata"
+            android:textOn="Batata"
+            android:layout_margin="10dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_refri"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textOff="Refri"
+            android:textOn="Refri"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/price_button"
+            android:layout_width="match_parent"
+            android:text="Fazer Pedido"
+            android:layout_height="100dp"/>
+
+            <TextView
+                android:id="@+id/price_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="Preço: 0"
+               />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
